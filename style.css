@@ -1,0 +1,65 @@
+body{
+	background-color: lightpink;
+	color: lightpink;
+	font-family: Times;
+}
+
+h1{
+	color: grey;
+	font-family: Times; 
+	text-transform:uppercase ;
+	border-bottom: 2px solid grey;
+	padding-bottom: 5px;
+}
+
+p{
+	font-family: "Calibri";
+  font-weight: 400;
+  font-style: normal;
+}
+
+a{
+	font-family: "Calibri";                   
+  font-weight: 400;
+  font-style: normal;
+}
+
+a:hover {
+color: hotpink;
+}
+
+@media (max-width:500px) {
+	container {
+		background-color: grey;
+	}
+}
+
+.card {
+  background: beige;
+  border: 2px solid black;
+  border-radius: 8px; 
+  margin: 10px;
+  padding: 40px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
+  transition: transform 0.3s, box-shadow 0.3s; 
+}
+
+.card {
+  width: 200%; 
+  max-width: 500px; 
+}
+
+.card h2 {
+	margin-bottom: 30px;
+	color: grey;
+	font-family: Times;
+}
+
+#profile {
+  width: 150px; 
+  height: 150px; 
+  border-radius: 50%; 
+  object-fit: cover; 
+  border: 2px solid grey; 
+}
+
